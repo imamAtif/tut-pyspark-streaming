@@ -1,7 +1,7 @@
 *.env
 *.venv*
 .idea
-*.rcc
+*.crc
 metadata
 checkpoint
 offsets
