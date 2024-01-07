@@ -4,3 +4,6 @@
 *.rcc
 metadata
 checkpoint
+offsets
+state
+commits
