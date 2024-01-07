@@ -6,6 +6,7 @@ from pyspark.sql import functions as F
 spark = SparkSession.builder.appName("sparkstream").getOrCreate()
 
 # Define input sources
+# the data is being sent by command  : nc -l 9999
 lines = (
     spark.readStream.format("socket")
     .option("host", "localhost")
